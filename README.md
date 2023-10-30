@@ -18,17 +18,20 @@ Démarrer un projet ReactJS
 - ESLint est déjà installé avec create-react-app, il suffit d'ajouter la configuration de Google
 - Exécutez `npm install eslint-config-google --save-dev`
 - Dans le fichier `package.json`, sous la section `eslintConfig/extends`, ajoutez "google"
-  ```json
-  "eslintConfig": {
-      "extends": [
-        "react-app",
-        "google",
-        "react-app/jest"
-      ]
-    }
+
 ```
+"eslintConfig": {
+    "extends": [
+      "react-app",
+      "google",
+      "react-app/jest"
+    ]
+  }
+```
+
 - Pour ajouter l'autofix on save, créez le fichier `.vscode/settings.json`
 - Ajoutez le contenu suivant dans le fichier `settings.json`
+
 ```
   {
     "editor.codeActionsOnSave": {
