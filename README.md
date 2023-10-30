@@ -39,3 +39,6 @@ Démarrer un projet ReactJS
     },
   }
 ```
+
+## Démarrer le projet
+- `npm start`
