@@ -25,8 +25,12 @@ Démarrer un projet ReactJS
       "react-app",
       "google",
       "react-app/jest"
-    ]
-  }
+    ],
+    "rules": {
+      "linebreak-style":0,
+      "max-len": ["error", { "code": 120 }]
+    }
+  },
 ```
 
 - Pour ajouter l'autofix on save, créez le fichier `.vscode/settings.json`
